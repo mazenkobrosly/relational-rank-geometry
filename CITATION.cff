@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the paper and this repository."
+title: "Relational Rank Geometry in Transformers: Detecting and Steering Hidden-State Relation Frames"
+authors:
+  - family-names: "Kobrosly"
+    given-names: "Mazen"
+date-released: "2026-05-24"
+version: "v1.0.0"
+repository-code: "https://github.com/mazenkobrosly-coder/relational-rank-geometry"
+abstract: "This work introduces Plücker sign entropy as a rank-indexed diagnostic for relation-frame geometry in transformer hidden states, and tests whether relation-frame shape can be used as a behavioral intervention target in controlled edge-grid assays."
+keywords:
+  - mechanistic interpretability
+  - transformer representations
+  - relation frames
+  - Plücker coordinates
+  - activation steering
+license: "MIT"
+
