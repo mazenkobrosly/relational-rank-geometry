@@ -6,6 +6,7 @@ authors:
     given-names: "Mazen"
 date-released: "2026-05-24"
 version: "v1.0.0"
+doi: "10.5281/zenodo.20373872"
 repository-code: "https://github.com/mazenkobrosly-coder/relational-rank-geometry"
 abstract: "This work introduces Plücker sign entropy as a rank-indexed diagnostic for relation-frame geometry in transformer hidden states, and tests whether relation-frame shape can be used as a behavioral intervention target in controlled edge-grid assays."
 keywords:
@@ -15,4 +16,3 @@ keywords:
   - Plücker coordinates
   - activation steering
 license: "MIT"
-
