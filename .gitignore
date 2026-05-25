@@ -8,3 +8,5 @@
 *.synctex.gz
 arxiv_source/main.pdf
 _tmp_extract/
+preview/
+*.before_gpt_image_*.png
