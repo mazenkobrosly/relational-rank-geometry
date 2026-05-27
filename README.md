@@ -47,5 +47,8 @@ checksums/replication_SHA256SUMS.txt
 
 ## Citation
 
-See `CITATION.cff`. DOI and arXiv identifiers will be added after public archival/submission.
+See `CITATION.cff`.
 
+Zenodo DOI: <https://doi.org/10.5281/zenodo.20373872>
+
+The arXiv identifier will be added after the arXiv submission is live.
