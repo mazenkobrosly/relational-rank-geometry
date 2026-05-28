@@ -784,14 +784,19 @@ The site-and-ordering audit uses the same edge-grid prompt bank and the same pat
 
 The audit has one especially important contrast. Cross-prompt clean shape succeeds almost as strongly as target clean shape, and in both 70B and 405B the matched cross-prompt corrupt shape fails in coupled recovery. Therefore the donor cloud is not acting as a generic same-site activation source. In the current prompt bank, where the clean map is the identity map for every prompt, the supported interpretation is transfer of a clean/solved identity-frame format across prompt instances and corrupt maps. A stronger claim about transfer across different clean relation contents would require a clean-map-varied prompt bank.
 
-\begin{table}[!htbp]
-\centering
+\begingroup
 \scriptsize
-\resizebox{0.95\textwidth}{!}{%
-\begin{tabular}{llrrrrr}
+\setlength{\tabcolsep}{2.8pt}
+\renewcommand{\arraystretch}{0.92}
+\begin{longtable}{@{}lp{0.34\textwidth}rrrrr@{}}
 \toprule
 Model & Method & endpoint beh. & endpoint res. & edge rec. & coupled AUC & off-target AUC \\
 \midrule
+\endfirsthead
+\toprule
+Model & Method & endpoint beh. & endpoint res. & edge rec. & coupled AUC & off-target AUC \\
+\midrule
+\endhead
 70B & shape only & 1.006 & 0.719 & 1.348 & 0.301 & 0.0067 \\
 70B & shape\_cross\_prompt\_same\_site & 1.009 & 0.718 & 1.078 & 0.302 & 0.0068 \\
 70B & shape\_cross\_prompt\_corrupt\_same\_site & 0.024 & 0.003 & 0.018 & 0.000 & 0.0055 \\
@@ -810,12 +815,10 @@ Model & Method & endpoint beh. & endpoint res. & edge rec. & coupled AUC & off-t
 405B & centroid only & -0.004 & -0.001 & -0.008 & -0.000 & 0.0002 \\
 405B & equal-norm noise & 0.019 & -0.029 & 0.093 & -0.000 & 0.0002 \\
 \bottomrule
-\end{tabular}
-}
 \caption{Completed site-and-ordering audit. The table reports endpoint behavior, endpoint residual blade recovery, normalized edge-marker Pl\"ucker recovery, coupled AUC, and off-target AUC for 70B and 405B, including matched corrupt-donor controls. Because this is a separately computed site/order control batch, shared method names are audit calibration rows and endpoint residual values should be compared within this audit block rather than row-by-row to Table~\ref{tab:main-steering}. Edge-marker Pl\"ucker recovery can exceed \(1\) when the patched state overshoots the clean reference under this scalar readout.}
 \label{tab:site-order-appendix}
-\end{table}
-\FloatBarrier
+\end{longtable}
+\endgroup
 
 \section{8B Competence Boundary and Reproducibility Notes}
 
