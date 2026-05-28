@@ -36,7 +36,7 @@ The replication bundle contains the local artifacts used to audit the paper's re
 
 A superseded RTXPRO 405B pilot run is excluded; the reported site/order rows use the validated H100/H100-SXM 70B and 405B artifacts.
 
-The GitHub bundle is a cleaned public copy of the replication materials: Python bytecode caches, cache-only manifests, superseded pilot artifacts, and operating-system metadata are omitted, and internal working filenames have been replaced with neutral public names. The included runner scripts and lightweight helper modules are sufficient for CLI inspection; full reruns require local model checkpoint access and a compatible GPU environment. The archival DOI record remains on Zenodo.
+The GitHub bundle is a cleaned public copy of the replication materials: Python bytecode caches, cache-only manifests, superseded pilot artifacts, and operating-system metadata are omitted, and the top-level repository and bundle names use neutral public labels. Some historical local paths and run-directory names remain inside archived manifests, logs, and CSV provenance fields to preserve exact audit traceability. The included runner scripts and lightweight helper modules are sufficient for CLI inspection; full reruns require local model checkpoint access and a compatible GPU environment. The archival DOI record remains on Zenodo.
 
 ## Checksums
 
@@ -55,7 +55,7 @@ checksums/replication_SHA256SUMS.txt
 
 ## License
 
-Code and scripts are MIT licensed; see `LICENSE` and `LICENSE-CODE-MIT`. Paper text, figures, prompt/data artifacts, and documentation are CC BY 4.0 unless otherwise noted; see `LICENSE-CONTENT-CC-BY-4.0`. Archives may contain materials under both licenses according to file type. Model checkpoints are not redistributed.
+Code and scripts are MIT licensed; see `LICENSE` and `LICENSE-CODE-MIT`. Paper text, figures, prompt/data artifacts, and documentation are CC BY 4.0 unless otherwise noted; see `LICENSE-CONTENT-CC-BY-4.0`. Archives may contain materials under both licenses according to file type. The `CITATION.cff` license field refers to the citable paper/artifact record; code licensing is governed by the MIT license files. Model checkpoints are not redistributed.
 
 ## Citation
 
