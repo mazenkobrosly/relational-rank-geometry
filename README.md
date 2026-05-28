@@ -61,4 +61,5 @@ Code and scripts are MIT licensed; see `LICENSE` and `LICENSE-CODE-MIT`. Paper t
 
 See `CITATION.cff`.
 
+Latest Zenodo version DOI: <https://doi.org/10.5281/zenodo.20424531>
 Zenodo all-versions DOI: <https://doi.org/10.5281/zenodo.20373871>
