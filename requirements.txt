@@ -1,0 +1,11 @@
+# Minimal packages used by the public runner scripts.
+numpy
+pandas
+scipy
+matplotlib
+
+# Full model reruns also require local checkpoint access and GPU resources.
+torch
+transformers
+accelerate
+bitsandbytes
