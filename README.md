@@ -62,5 +62,3 @@ Code and scripts are MIT licensed; see `LICENSE` and `LICENSE-CODE-MIT`. Paper t
 See `CITATION.cff`.
 
 Zenodo all-versions DOI: <https://doi.org/10.5281/zenodo.20373871>
-
-The arXiv identifier will be added after the arXiv submission is live.
