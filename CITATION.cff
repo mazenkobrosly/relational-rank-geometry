@@ -5,7 +5,7 @@ authors:
   - family-names: "Kobrosly"
     given-names: "Mazen"
 date-released: "2026-05-27"
-version: "v1.0.2"
+version: "v1.0.3"
 doi: "10.5281/zenodo.20373872"
 repository-code: "https://github.com/mazenkobrosly/relational-rank-geometry"
 abstract: "This work introduces Plücker sign entropy as a rank-indexed diagnostic for relation-frame geometry in transformer hidden states, and tests whether relation-frame shape can be used as a behavioral intervention target in controlled edge-grid assays."
