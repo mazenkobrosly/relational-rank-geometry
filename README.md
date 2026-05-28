@@ -13,10 +13,10 @@ The paper studies whether multi-token relation states in transformer hidden acti
   Compiled paper PDF.
 
 - `arxiv_source/`  
-  Clean LaTeX source tree for arXiv. This is the extracted source package that compiles from `main.tex`.
+  Clean LaTeX source tree corresponding to the arXiv submission. It compiles from `main.tex`.
 
 - `release_assets/relational_rank_geometry_arxiv_source.zip`  
-  Clean arXiv source zip. This is the file intended for arXiv source upload.
+  Clean arXiv source zip used for the arXiv upload.
 
 - `release_assets/RRG_replication_materials_20260524.tar.gz`  
   Public replication materials bundle with prompt banks, run configs, runner scripts, row-level CSVs, path-quality tables, bootstrap summaries, multi-template outputs, site/order controls, manifests, and SHA256 hashes.
