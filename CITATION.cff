@@ -7,7 +7,13 @@ authors:
 date-released: "2026-05-28"
 version: "v1.0.3"
 doi: "10.5281/zenodo.20424531"
+url: "https://arxiv.org/abs/2605.29634"
 repository-code: "https://github.com/mazenkobrosly/relational-rank-geometry"
+identifiers:
+  - type: doi
+    value: "10.48550/arXiv.2605.29634"
+  - type: other
+    value: "arXiv:2605.29634"
 abstract: "This work introduces Plücker sign entropy as a rank-indexed diagnostic for relation-frame geometry in transformer hidden states, and tests whether relation-frame shape can be used as a behavioral intervention target in controlled edge-grid assays."
 keywords:
   - mechanistic interpretability

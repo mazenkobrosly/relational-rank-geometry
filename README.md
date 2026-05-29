@@ -5,6 +5,8 @@ This repository contains the paper source and replication materials for:
 **Relational Rank Geometry in Transformers: Detecting and Steering Hidden-State Relation Frames**  
 Mazen Kobrosly, Independent Researcher
 
+arXiv: <https://arxiv.org/abs/2605.29634>
+
 The paper studies whether multi-token relation states in transformer hidden activations have a rank-indexed orientation signature, and whether the corresponding relation-frame geometry can be used as an intervention target.
 
 ## Repository layout
@@ -61,5 +63,7 @@ Code and scripts are MIT licensed; see `LICENSE` and `LICENSE-CODE-MIT`. Paper t
 
 See `CITATION.cff`.
 
+arXiv: <https://arxiv.org/abs/2605.29634>
+arXiv DOI: <https://doi.org/10.48550/arXiv.2605.29634>
 Latest Zenodo version DOI: <https://doi.org/10.5281/zenodo.20424531>
 Zenodo all-versions DOI: <https://doi.org/10.5281/zenodo.20373871>
