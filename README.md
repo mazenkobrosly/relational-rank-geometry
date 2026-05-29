@@ -38,7 +38,7 @@ The replication bundle contains the local artifacts used to audit the paper's re
 
 A superseded RTXPRO 405B pilot run is excluded; the reported site/order rows use the validated H100/H100-SXM 70B and 405B artifacts.
 
-The GitHub bundle is a cleaned public copy of the replication materials: Python bytecode caches, cache-only manifests, superseded pilot artifacts, and operating-system metadata are omitted, and the top-level repository and bundle names use neutral public labels. It includes a `headline_table_sources/` map for the controlled-arity headline table and held-out audit. Some historical local paths and run-directory names remain inside archived manifests, logs, and CSV provenance fields to preserve exact audit traceability. The included runner scripts and lightweight helper modules are sufficient for CLI inspection; full reruns require local model checkpoint access and a compatible GPU environment. The archival DOI record remains on Zenodo.
+The GitHub bundle is a cleaned public copy of the replication materials: Python bytecode caches, cache-only manifests, superseded pilot artifacts, and operating-system metadata are omitted, and the top-level repository and bundle names use neutral public labels. It includes a `headline_table_sources/` map for the controlled-arity headline table and held-out audit. Some historical local paths and run-directory names remain inside archived manifests, logs, and CSV provenance fields to preserve exact audit traceability. The included runner scripts and lightweight helper modules are sufficient for CLI inspection; full reruns require local model checkpoint access and a compatible GPU environment.
 
 ## Checksums
 
@@ -65,5 +65,3 @@ See `CITATION.cff`.
 
 arXiv: <https://arxiv.org/abs/2605.29634>
 arXiv DOI: <https://doi.org/10.48550/arXiv.2605.29634>
-Latest Zenodo version DOI: <https://doi.org/10.5281/zenodo.20424531>
-Zenodo all-versions DOI: <https://doi.org/10.5281/zenodo.20373871>

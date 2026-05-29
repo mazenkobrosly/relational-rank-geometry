@@ -6,7 +6,7 @@ authors:
     given-names: "Mazen"
 date-released: "2026-05-28"
 version: "v1.0.3"
-doi: "10.5281/zenodo.20424531"
+doi: "10.48550/arXiv.2605.29634"
 url: "https://arxiv.org/abs/2605.29634"
 repository-code: "https://github.com/mazenkobrosly/relational-rank-geometry"
 identifiers:
