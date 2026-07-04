@@ -1,0 +1,20 @@
+{
+  "arities": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "builder": "analysis/build_reviewer_rescue_controls.py",
+  "forward_pass_required": true,
+  "n_per_arity": 100,
+  "n_relation_instances": 20,
+  "purpose": "controls for arity-coded predicate names, query-slot salience, and template artifacts",
+  "seed": 40577,
+  "total_rows_per_bank": {
+    "arity_generic_predicate_r3_r6.jsonl": 400,
+    "arity_nonce_predicate_r3_r6.jsonl": 400,
+    "arity_query_swap_nonce_r3_r6.jsonl": 400,
+    "arity_template_generalization_r3_r6.jsonl": 400
+  }
+}
