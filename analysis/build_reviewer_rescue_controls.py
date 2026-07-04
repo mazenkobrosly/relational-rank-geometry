@@ -224,7 +224,7 @@ def write_readme(out_dir: Path, manifest: Mapping) -> None:
         "- `template_generalization_control`: mixes five surface templates and labels three as dev, two as heldout.",
         "",
         "All generated controls use r=3..6, 100 prompts per arity, and 20 relation instances per prompt.",
-        "Forward passes are not run by this builder. Use `scripts/run_reviewer_rescue_8b_controls.sh` on a GPU pod.",
+        "Forward passes are not run by this builder. Use `scripts/run_reviewer_rescue_controls_model.sh` on a GPU pod.",
         "",
         "Manifest:",
         "",
